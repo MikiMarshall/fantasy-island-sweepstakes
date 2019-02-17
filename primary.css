@@ -1,0 +1,167 @@
+/*
+		CS-133S-01 - JavaScript
+		Miki Marshall
+		03/21/2012
+		Final Exam Project - Winter 2012
+		
+		Fantasy Island Travel	
+
+*/
+
+body 
+{
+	text-align:center;
+	font-family:arial, helvetica, sans-serif;
+	background-image: url('images/ship.jpg');
+	background-size: 100%;
+	background-color: transparent;
+}
+
+#main 
+{
+	text-align: left;
+	width: 600px;
+	margin: 10px auto;
+	background-color:white;
+	padding: 10px;
+	border: double medium navy;
+	border-radius: 1em 1em;
+	-moz-border-radius: 1em 1em;
+	opacity: 0.85;
+}
+
+table
+{
+	width: 100%;
+	padding-left: 25px;
+}
+
+td
+{
+	width: 40%;
+}
+
+td.tally
+{
+	width: 10%;
+}
+
+
+/*
+#results 
+{
+	text-align: justify;
+	-moz-column-count: 2;
+	-moz-column-gap: 1.5em;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 1.5em;
+	column-count:2;
+	column-gap: 1.5em;
+}
+*/
+
+#results span 
+{
+	font-style: italic;
+	font-weight: bold;
+	color: silver;	
+}
+
+div.row 
+{
+	clear:both;
+	padding-top:10px;
+}
+
+div.row label 
+{
+	float:left;
+	width:125px;
+	text-align:right;
+	padding-right:5px;  
+}
+
+div.row input 
+{
+	float:left;
+	width:200px;
+	text-align:left;
+} 
+
+h1, h2 
+{
+	clear:both;
+	color:navy;
+	border-bottom: solid thin navy;
+	text-align: center;
+	border-radius: 1em 1em;
+	-moz-border-radius: 1em 1em;
+}
+
+h1 
+{
+	font: 2em "maiandra gd";
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: lightblue;
+}
+
+h2 
+{
+	color:#fff;
+	background-color: navy;
+	padding-top:0;
+	font-size: 1.25em;
+}
+
+input[type=button] 
+{
+	color:#fff;
+	background-color: navy;
+	margin-left: 30px;
+	padding: .25em;
+	font-weight: bold;
+}
+
+input[type=text], select 
+{
+	background-color: #dfdfff;
+	font-weight: bold;
+}
+
+legend 
+{
+	padding: .25em 1em;
+	background-color: #dfdfff;
+	border: thin solid #000;
+	border-radius: 1em 1em;
+	-moz-border-radius: 1em 1em;
+}
+
+p.clear 
+{
+	padding-top:10px;
+	clear:both;
+}
+
+fieldset, label 
+{
+	display:block;
+	margin-top: 1em;
+}
+
+fieldset 
+{
+	background-color:#dfdfdf;
+	padding: 0 0 1em 1em;
+	border-radius: .75em .75em;
+	-moz-border-radius: .75em .75em;
+}
+
+input[type="button"] 
+{
+	margin-top: 1em;
+}

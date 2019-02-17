@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<!--
+		CS-133S-01 - JavaScript
+		Miki Marshall
+		03/21/2012
+		Final Exam Project - Winter 2012
+		
+		Fantasy Island Travel	
+
+		<title>CS 133S Final by Miki Marshall</title>
+
+		<!-- The CSS stylesheet -->
+		<link type="text/css" rel="stylesheet" href="primary.css" >
+
+		<!-- My library of common Javascript functions -->
+		<script type="text/javascript" src="commonlib.js">
+		</script>
+
+		<!-- Javascript functions for this page -->
+		<script type="text/javascript" src="vacation.js"></script>
+	</head>
+
+	<body>
+		<div id="main">
+			<!-- Heading & subheadings -->
+			<h1>March Madness - Fantasy Island Style</h1>
+			
+			<h2>Brought to you by Fantasy Island Travel, LLC<sup>&reg;</sup></h2>
+
+			<!-- Instructions -->
+			<p>Take a few moments to vote on which of the two fantasy vacations shown below you'd prefer. Each vote enters
+			you in a drawing, sure to be conducted in a fair and random manner, and in no way to award all significant
+			prizes to friends, relatives, and hangers-on of Fantasy Island Travel, LLC <sup>&reg;</sup></p>
+
+			<!-- Survey form -->
+			<form name="surveyForm">
+				<fieldset>
+					<legend>I would rather vacation in:</legend>
+
+					<table><tr>
+						<td><label>
+							<input type="radio" name="pollRadio" id="optRadio1" value="" />
+
+							<span id="optSpan1">Destination 1</span>
+						</label></td>
+
+						<td><label>
+							<input type="radio" name="pollRadio" id="optRadio2" value="" />
+
+							<span id="optSpan2">Destination 2</span>
+						</label></td>
+					</table>
+				</fieldset>
+			</form>
+			
+			<!-- Results -->
+			<h2>Your Results ...  Drumroll Please</h2>
+			
+			<div id="results"></div>
+
+			<!-- Tally of entries -->
+			<h2 id="entries">Thanks for Playing! You now have <span id="count"></span> drawing entries!</h2>	
+		</div>
+	</body>
+</html>
